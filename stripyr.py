@@ -1,4 +1,4 @@
-#!/usr/bin/python
+#!/usr/bin/env python3
 """
 	stripyr is a program that strips extra data from a text file
 	Copyright 2016 Kevin R. Kowalczyk
@@ -17,7 +17,6 @@
     along with this program.  If not, see <http://www.gnu.org/licenses/>.
 """
 
-
 from sys import argv
 
 script, target, dest = argv
@@ -25,8 +24,8 @@ script, target, dest = argv
 in_file = open(target)
 out_file = open(dest, 'w')
 
-print "Ready, hit RETURN to continue, CTRL-C to abort."
-raw_input()
+print ("Ready, hit RETURN to continue, CTRL-C to abort.")
+input()
 
 for line in in_file:
 	text = line.split(' ')

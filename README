@@ -18,3 +18,9 @@ Copyright 2016 Kevin R. Kowalczyk
 A quick and easy script that can be used to strip extraneous data out of
 a file. I wrote this to obtain lists of only the names from census data found
 at http://www2.census.gov/topics/genealogy/1990surnames/
+
+USAGE:
+
+./stripyr.py <file-to-be-converted> <destination file>
+OR
+python stripyr.py <file-to-be-converted> <destination file>
